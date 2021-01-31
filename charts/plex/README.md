@@ -7,8 +7,8 @@ This chart is 'forked' from the excellent [munnerz/kube-plex](https://github.com
 ## TL;DR
 
 ```shell
-helm repo add k8s-at-home https://k8s-at-home.com/charts/
-helm install k8s-at-home/plex
+helm repo add anasf321 https://github.com/anasf321/charts/
+helm install anasf321/plex
 ```
 
 ## Installing the Chart
@@ -16,7 +16,7 @@ helm install k8s-at-home/plex
 To install the chart with the release name `plex`:
 
 ```console
-helm install plex k8s-at-home/plex
+helm install plex anasf321/plex
 ```
 
 ## Uninstalling the Chart
